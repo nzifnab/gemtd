@@ -12,3 +12,4 @@ class Gemtd.Routers.Gems extends Backbone.Router
     $('#container').html(view.render().el)
 
   show: (id) ->
+    $('#container').html("show page for gem #{id}")
