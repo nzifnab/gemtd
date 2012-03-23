@@ -1,0 +1,7 @@
+%h1 Gems Index
+
+%form{:id => 'new_gem'}
+  %input{:type => "text", :name => "name", :id => "new_gem_name"}
+  %input{:type => "submit", :value => "Add"}
+
+%ul#gems

@@ -1,0 +1,1 @@
+class Gemtd.Models.Gem extends Backbone.Model
